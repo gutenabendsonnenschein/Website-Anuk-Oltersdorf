@@ -1,29 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Antifa</title>
+    <title>Home</title>
     <style>
       body {
         margin: 0;
-        background-image: url("background.jpeg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        font-family: Arial, sans-serif;
-        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        background: #f9fafb;
+        color: #111827;
+        line-height: 1.6;
+      }
+
+      header {
+        background: white;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+
+      nav a {
+        margin-right: 20px;
+        text-decoration: none;
+        color: #374151;
+        font-weight: 500;
+      }
+
+      nav a:hover {
+        color: #111827;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        margin-top: 60px;
+        font-size: 1.6rem;
+      }
+
+      p {
+        max-width: 65ch;
+      }
+
+      .card {
+        background: white;
+        padding: 24px;
+        border-radius: 8px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        margin-top: 20px;
+      }
+
+      footer {
+        border-top: 1px solid #e5e7eb;
+        margin-top: 80px;
+        color: #6b7280;
       }
     </style>
   </head>
-  <body>
-    <h1>Marie ich liebe dich, bitte heirate mich.</h1>
-    <p>Lalaland im Kopf. Wann willst du heiraten?</p>
-  </body>
-<nav>
-  <a href="/">Home</a>
-  <a href="/about/">About</a>
-  <a href="/contact/">Contact</a>
-  <a href="/books/">Books</a>
-</nav>
 
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+           <a href="/books/">Books</a>
+          
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Tag</h1>
+      <p>
+        original design by lime
+      </p>
+
+      <div class="card">
+        <h2>Section</h2>
+        <p>
+          Cards are great for grouping content and making it stand out.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        © 2026 Anuk
+      </div>
+    </footer>
+  </body>
 </html>
